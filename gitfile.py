@@ -4,10 +4,10 @@ def EMI(floatrate, N, PV, FV):
     EMI = (PV + (FV/compound)) * m
     return EMI
 
-floatrate = 0.1
-N = 30
-PV = 10000
-FV = 2000
+floatrate = 0.05
+N = 40
+PV = 20000
+FV = 1000
 
 print("Question 1:")
 print(EMI(floatrate, N, PV, FV))
